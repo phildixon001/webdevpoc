@@ -1,0 +1,117 @@
+/*site.css*/
+
+html,body{
+
+    padding:0px;
+    margin:0px;
+
+
+}
+
+body {
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+.container{
+
+    width:700px;
+    margin:auto;
+    }
+
+header,footer{
+
+padding:10px; background-color:azure;
+
+}
+
+header{
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
+
+header.logo {
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav {
+    float: right;
+    padding-right: 10px;
+        margin-top: 30px;
+}
+
+@media screen and (max-width: 700px){
+    header nav {
+        display: none;
+        visibility: collapse;
+    }
+}
+
+header button {
+    float: right;
+}
+
+.button {
+    text-decoration: none;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background: brown;
+}
+
+.button-active {
+    text-decoration: none;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 5px;
+    color: grey;
+    background: pink;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+p {
+    color:red;
+}
+
+section p {
+    color:green;
+}
+
+.large{
+    color:pink;
+    font-size: 40px;
+}
+
+.blue{
+
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    margin-right: 10px;
+    padding:10px;
+    float:left;
+
+}
+
+.green{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    float:right;
+}
+
+.row{
+    height:200px;
+}
+
